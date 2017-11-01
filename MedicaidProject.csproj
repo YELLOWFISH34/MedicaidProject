@@ -83,6 +83,8 @@
     <Content Include="SearchPhysicians.aspx" />
     <Content Include="Search.aspx" />
     <Content Include="ReportAProblem.aspx" />
+    <Content Include="Add_An_adminstrator.aspx" />
+    <Content Include="Upload_physician_list.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -174,6 +176,20 @@
     </Compile>
     <Compile Include="Testing.aspx.designer.cs">
       <DependentUpon>Testing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Add_An_adminstrator.aspx.cs">
+      <DependentUpon>Add_An_adminstrator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add_An_adminstrator.aspx.designer.cs">
+      <DependentUpon>Add_An_adminstrator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Upload_physician_list.aspx.cs">
+      <DependentUpon>Upload_physician_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Upload_physician_list.aspx.designer.cs">
+      <DependentUpon>Upload_physician_list.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

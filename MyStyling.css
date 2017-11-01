@@ -1,0 +1,64 @@
+﻿.templeBG {
+    background-image: url('../img/bgpic.jpg');
+    width: 100%;
+    height: auto;
+    background-size: initial;
+}
+
+.login_form_bg {
+    color: #666;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height: 400px;
+    background-color: white;
+}
+
+.searchTop {
+    margin-top: 180px;
+    margin-bottom: 180px;
+    font-weight: bold;
+    font-size: 140%;
+}
+
+.doctorInfo {
+    font-size: 150%;
+}
+
+.btnReport {
+    padding: 15px;
+}
+
+.sidenav {
+    height: 95%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 5%;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.ContentPlaceHolder1 {
+    margin-left: 200px; /* Same as the width of the sidenav */
+}
